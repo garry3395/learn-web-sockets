@@ -7,7 +7,7 @@ import cors from 'cors';
 const app = express();
 
 // Update this to your frontend origin in production
-const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || 'http://localhost:5173';
+const FRONTEND_ORIGIN ="https://learn-web-sockets.vercel.app"|| 'http://localhost:5173';
 
 app.use(cors({ origin: FRONTEND_ORIGIN, credentials: true }));
 
